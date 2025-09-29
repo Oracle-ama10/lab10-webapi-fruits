@@ -40,11 +40,14 @@
 ```sh
 curl http://localhost/lab10-webapi-fruits/api/products
 ```
+<img width="1919" height="1031" alt="Get all" src="https://github.com/user-attachments/assets/7403ea9b-e8f2-4c2e-9a84-ba19a6d4fc62" />
 
 ### GET สินค้าทีละชิ้น
 ```sh
 curl http://localhost/lab10-webapi-fruits/api/products/1
 ```
+<img width="1919" height="1029" alt="Get one" src="https://github.com/user-attachments/assets/ae6f8405-122b-48cd-b949-bdd4a33f21ca" />
+
 
 ### POST เพิ่มสินค้า
 ```sh
@@ -58,6 +61,8 @@ curl -X POST http://localhost/lab10-webapi-fruits/api/products -H "Content-Type:
 "image_url": "https://www.google.com/search?q=https://example.com/salak_indo.jpg"	
 }'
 ```
+<img width="1919" height="1038" alt="Post new" src="https://github.com/user-attachments/assets/f1048d27-0f6d-42e1-aef2-0a5708823e6e" />
+
 
 ### PUT แก้ไขสินค้า
 ```sh
@@ -66,12 +71,14 @@ curl -X PUT http://localhost/lab10-webapi-fruits/api/products/26 -H "Content-Typ
     "stock": 40
 }'
 ```
+<img width="1919" height="1033" alt="Update" src="https://github.com/user-attachments/assets/7cef617a-6f77-4218-bb6a-4ae32e545b56" />
+
 
 ### DELETE ลบสินค้า
 ```sh
 curl -X DELETE http://localhost/lab10-webapi-fruits/api/products/26
 ```
+<img width="1919" height="1034" alt="Delete" src="https://github.com/user-attachments/assets/8c461fb8-b65d-4fea-ad10-3e2c9cca2a85" />
 
----
 
 
